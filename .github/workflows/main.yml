@@ -41,7 +41,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          # # 使用了之前步骤中 docker/metadata-action 的输出变量 tags
-          # tags: ${{ steps.meta.outputs.tags }}
-          # # 使用了之前步骤中 docker/metadata-action 的输出变量 labels
-          # labels: ${{ steps.meta.outputs.labels }}
+          # 使用了之前步骤中 docker/metadata-action 的输出变量 tags
+          tags: ${{ steps.meta.outputs.tags }}
+          # 使用了之前步骤中 docker/metadata-action 的输出变量 labels
+          labels: ${{ steps.meta.outputs.labels }}
