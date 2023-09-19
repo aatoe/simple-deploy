@@ -20,5 +20,8 @@
   "homepage": "https://gitlab.com/shfshanyue/simple-deploy#readme",
   "devDependencies": {
     "serve": "^13.0.2"
+  },
+  "dependencies": {
+    "vercel": "^32.2.5"
   }
 }
