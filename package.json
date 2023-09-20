@@ -6,7 +6,8 @@
   "scripts": {
     "start": "serve . -p 3000",
     "start:server": "node server-fs.js",
-    "learn:nginx": "docker-compose -f learn-nginx.docker-compose.yaml up"
+    "learn:nginx": "docker-compose -f learn-nginx.docker-compose.yaml up",
+    "test":"echo '正在执行测试'"
   },
   "repository": {
     "type": "git",
