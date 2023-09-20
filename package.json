@@ -7,7 +7,7 @@
     "start": "serve . -p 3000",
     "start:server": "node server-fs.js",
     "learn:nginx": "docker-compose -f learn-nginx.docker-compose.yaml up",
-    "test":"echo '正在执行测试'"
+    "test":"echo '正在执行测试' && npm yun lint"
   },
   "repository": {
     "type": "git",
